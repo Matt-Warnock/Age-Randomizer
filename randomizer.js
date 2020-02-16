@@ -1,3 +1,3 @@
-var mySentence = getElementById('age');
+var myElement = getElementById('age');
 var myRandomNumber = math.floor(math.ramdom() * 100);
-var 
+var mySentence = `I am ${myRandomNumber} years old.`;
