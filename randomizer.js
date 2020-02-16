@@ -1,2 +1,3 @@
 var mySentence = getElementById('age');
-var MyrandomNumber = math.floor(math.ramdom() * 100);
+var myRandomNumber = math.floor(math.ramdom() * 100);
+var 
