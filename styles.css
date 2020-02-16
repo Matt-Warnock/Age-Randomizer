@@ -1,0 +1,7 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+  margin-top: 18%;
+}
