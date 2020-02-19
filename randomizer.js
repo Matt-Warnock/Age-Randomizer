@@ -4,7 +4,7 @@ var mySentence = `I am ${myRandomNumber} years old.`;
 myElement.innerHTML = mySentence;
 console.log(mySentence);
 var myButton = document.getElementsByName('myButton');
-myButton.addEventListener('click', event => {
+myButton.addEventListener('click', function(event){
   var myNoun = document.getElementById('noun').value;
   var myVerb = document.getElementById('verb').value;
   var myAdject = document.getElementById('adject').value;
