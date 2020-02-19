@@ -5,5 +5,9 @@ myElement.innerHTML = mySentence;
 console.log(mySentence);
 var myButton = document.getElementsByName('myButton');
 myButton.addEventlistener('click', event =>{
+  var myNoun = document.getElementById('noun').value;
+  var myVerb = document.getElementById('verb').value;
+  var myAdject = document.getElementById('adject').value;
+  var myAdverb = document.getElementById('adverb').value;
   
 });
