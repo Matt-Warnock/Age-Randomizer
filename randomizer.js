@@ -11,5 +11,5 @@ myButton.addEventlistener('click', event =>{
   var myAdverb = document.getElementById('adverb').value;
   var myMadLab = `Do you ${myVerb} your ${myAdject} ${myNoun} ${myAdverb}?<br>Thats hilarious!!`;
   var myTarget = document.getElementById('target');
-  
+  myTarget.innerHTML = myMadLab;
 });
