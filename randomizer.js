@@ -9,7 +9,7 @@ myButton.addEventListener('click', function(event){
   var myVerb = document.getElementById('verb').value;
   var myAdject = document.getElementById('adject').value;
   var myAdverb = document.getElementById('adverb').value;
-  var myMadLab = `Do you ${myVerb} your ${myAdject} ${myNoun} ${myAdverb}`;
+  var myMadLab = `Do you ${myVerb} your ${myAdject} ${myNoun} ${myAdverb}?`;
   var myTarget = document.getElementById('target');
   myTarget.innerHTML = myMadLab;
 });

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
-    <title>Age Randomizer</title>
-    <div class="mad_lab">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+  <title>Age Randomizer</title>
+  <div class="mad_lab">
       <label for="noun">Enter a noun:</label>
-      <input type="text" id="noun" name="noun" placeholder="monkey" required>
+      <input list="noun" id="noun" name="noun" placeholder="monkey" required>
       <label for="verb">Enter a verb here:</label>
       <input type="text" id="verb" name="verb" placeholder="swing" required>
       <label for="adjective">Enter an adjective here:</label>
@@ -16,11 +17,12 @@
       <input type="text" id="adverb" name="adverb" placeholder="slowly" required>
       <button type="button" name="button" id="myButton">GO</button>
       <p id="target"></p>
+  </div>
+</head>
 
-    </div>
-  </head>
-  <body>
-<h1 id="age"></h1>
-<script type="text/javascript" src="randomizer.js"></script>
-  </body>
+<body>
+  <h1 id="age"></h1>
+  <script type="text/javascript" src="randomizer.js"></script>
+</body>
+
 </html>
