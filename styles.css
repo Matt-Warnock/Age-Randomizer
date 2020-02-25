@@ -9,7 +9,7 @@ h1 {
 }
 .mad_lab {
   display: grid;
-  grid-template: repeat(5, auto) / repeat(4, 1fr);
+  grid-template: repeat(2, auto) 220px repeat(2, auto) / repeat(4, 1fr);
   background-color: #838996;
 }
 .mad_lab h1 {
@@ -37,4 +37,27 @@ input, #target {
   grid-column: span 4;
   justify-self: center;
   width: 30%;
+}
+.style_line1, .style_line2, .style_line3, .style_line4 {
+  grid-row: 3;
+  align-self: center;
+  width: 250px;
+  height: 0;
+  border: 3px solid #2A3439;
+}
+.style_line1 {
+  width: 280px;
+  margin-left: 150px;
+  transform: rotate(50deg);
+}
+.style_line2 {
+  transform: rotate(60deg);
+}
+.style_line3 {
+  transform: rotate(-60deg);
+}
+.style_line4 {
+  width: 280px;
+  margin-right: 150px;
+  transform: rotate(-50deg);
 }
