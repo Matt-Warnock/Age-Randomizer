@@ -7,10 +7,18 @@ h1 {
   font-size: 4em;
   color: #d82d2d;
 }
+.mad_lab {
+  background-color: #838996;
+}
 .mad_lab h1 {
   margin: 7px;
   font-size: 3.2em;
 }
 #target {
   font-size: 3em;
+}
+input, #target {
+  background-color: #A8A9AD;
+  border: 1px solid #2A3439;
+  border-radius: 2px;
 }
