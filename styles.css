@@ -14,12 +14,14 @@ h1 {
 }
 .mad_lab h1 {
   grid-column: span 4;
-  margin: 7px;
+  margin: 25px;
   font-size: 3.2em;
 }
 #target {
   grid-row: 5;
-  grid-column: 2 / span 2;
+  grid-column: span 4;
+  justify-self: center;
+  width: 80%;
   height: 60px;
   font-size: 3em;
 }
@@ -29,14 +31,18 @@ h1 {
 }
 input, #target {
   background-color: #A8A9AD;
-  border: 1px solid #2A3439;
-  border-radius: 2px;
+  border: 2px solid #2A3439;
+  border-radius: 4px;
 }
 #myButton {
   grid-row: 4;
   grid-column: span 4;
   justify-self: center;
-  width: 30%;
+  width: 5%;
+  height: 70px;
+  border: 1px solid red;
+  border-radius: 70px;
+  background-color: red;
 }
 .style_line1, .style_line2, .style_line3, .style_line4 {
   grid-row: 3;
