@@ -8,17 +8,32 @@ h1 {
   color: #d82d2d;
 }
 .mad_lab {
+  display: grid;
+  grid-template: repeat(5, auto) / repeat(4, 1fr);
   background-color: #838996;
 }
 .mad_lab h1 {
+  grid-column: span 4;
   margin: 7px;
   font-size: 3.2em;
 }
 #target {
+  grid-row: 5;
+  grid-column: 2 / span 2;
+  height: 60px;
   font-size: 3em;
+}
+.mad_inputs {
+  grid-row: 2;
+  grid-column: span 4;
 }
 input, #target {
   background-color: #A8A9AD;
   border: 1px solid #2A3439;
   border-radius: 2px;
+}
+#myButton {
+  width: 80px;
+  grid-row: 4;
+  grid-column: 3;
 }
