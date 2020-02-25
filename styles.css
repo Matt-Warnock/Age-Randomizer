@@ -1,3 +1,4 @@
+
 h1 {
   display: flex;
   justify-content: center;
@@ -5,7 +6,10 @@ h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 4em;
   color: #d82d2d;
-
+}
+.mad_lab h1 {
+  margin: 7px;
+  font-size: 3.2em;
 }
 #target {
   font-size: 3em;
