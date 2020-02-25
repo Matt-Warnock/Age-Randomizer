@@ -38,11 +38,11 @@ input, #target {
   grid-row: 4;
   grid-column: span 4;
   justify-self: center;
-  width: 5%;
-  height: 70px;
+  width: 10%;
+  height: 80px;
   border: 1px solid red;
   border-radius: 70px;
-  background-color: red;
+  background-color: #d82d2d;;
 }
 .style_line1, .style_line2, .style_line3, .style_line4 {
   grid-row: 3;
