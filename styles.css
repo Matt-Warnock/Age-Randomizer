@@ -36,8 +36,8 @@ input, #target {
   grid-column: span 4;
   justify-self: center;
   width: 10%;
-  height: 80px;
-  margin-top: 150px;
+  height: 100px;
+  margin-top: 200px;
   border: 1px solid red;
   border-radius: 70px;
   background-color: #d82d2d;
@@ -45,15 +45,15 @@ input, #target {
 .noun::after, .verb::after, .adjective::after, .adverb::after {
   position: absolute;
   content: "";
-  top: 280px;
+  top: 250px;
   width: 250px;
   height: 0;
   border: 3px solid #2A3439;
 }
 .noun::after {
-  width: 280px;
-  left: 100px;
-  transform: rotate(50deg);
+  width: 478px;
+  left: 160px;
+  transform: rotate(27deg);
 }
 .verb::after {
   transform: rotate(60deg);
