@@ -25,11 +25,8 @@ h1 {
   height: 60px;
   font-size: 3em;
 }
-.mad_inputs {
-  grid-row: 2;
-  grid-column: span 4;
-}
 input, #target {
+  position: relative;
   background-color: #A8A9AD;
   border: 2px solid #2A3439;
   border-radius: 4px;
@@ -42,27 +39,28 @@ input, #target {
   height: 80px;
   border: 1px solid red;
   border-radius: 70px;
-  background-color: #d82d2d;;
+  background-color: #d82d2d;
 }
-.style_line1, .style_line2, .style_line3, .style_line4 {
-  grid-row: 3;
-  align-self: center;
+.noun::after, .verb::after, .adjective::after, .adverb::after {
+  position: absolute;
+  content: "";
+  top: 280px;
   width: 250px;
   height: 0;
   border: 3px solid #2A3439;
 }
-.style_line1 {
+.noun::after {
   width: 280px;
-  margin-left: 150px;
+  left: 100px;
   transform: rotate(50deg);
 }
-.style_line2 {
+.verb::after {
   transform: rotate(60deg);
 }
-.style_line3 {
+.adjective::after {
   transform: rotate(-60deg);
 }
-.style_line4 {
+.adverb::after {
   width: 280px;
   margin-right: 150px;
   transform: rotate(-50deg);
