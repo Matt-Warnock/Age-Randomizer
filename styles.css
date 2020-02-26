@@ -9,7 +9,7 @@ h1 {
 }
 .mad_lab {
   display: grid;
-  grid-template: repeat(2, auto) 220px repeat(2, auto) / repeat(4, 1fr);
+  grid-template: repeat(4, auto) / repeat(4, 1fr);
   background-color: #838996;
 }
 .mad_lab h1 {
@@ -37,6 +37,7 @@ input, #target {
   justify-self: center;
   width: 10%;
   height: 80px;
+  margin-top: 150px;
   border: 1px solid red;
   border-radius: 70px;
   background-color: #d82d2d;
