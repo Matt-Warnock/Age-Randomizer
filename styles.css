@@ -45,17 +45,19 @@ input, #target {
 .noun::after, .verb::after, .adjective::after, .adverb::after {
   position: absolute;
   content: "";
-  top: 250px;
-  width: 250px;
+  top: 240px;
+  width: 228px;
   height: 0;
   border: 3px solid #2A3439;
 }
 .noun::after {
   width: 478px;
+  top: 250px;
   left: 160px;
   transform: rotate(27deg);
 }
 .verb::after {
+  left: 480px;
   transform: rotate(60deg);
 }
 .adjective::after {
