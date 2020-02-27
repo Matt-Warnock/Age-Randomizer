@@ -61,10 +61,12 @@ input, #target {
   transform: rotate(60deg);
 }
 .adjective::after {
-  transform: rotate(-60deg);
+  width: 285px;
+  right: 395px;
+  transform: rotate(-44deg);
 }
 .adverb::after {
   width: 280px;
-  margin-right: 150px;
+  right: 160px;
   transform: rotate(-50deg);
 }
